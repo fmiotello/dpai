@@ -11,87 +11,126 @@ Our method exploits a time-frequency representation of audio signals and makes u
 
 ## Audio examples
 
-### Class 1
-
-<!--<div class="container">
+<div class="container">
    <div class="column-left">
-     <h6>Source speaker</h6>
-     <audio src="audio/class_3_source.wav" controls preload></audio>
+     <h6>Corrupted audio signal</h6>
+     <audio src="audio/example0/audio_original_masked.wav" controls preload></audio>
    </div>
    <div class="column-center">
-     <h6>Target speaker</h6>
-     <audio src="audio/class_3_target.wav" controls preload></audio>
+     <h6>DPAI reconstruction (ours)</h6>
+     <audio src="audio/example0/dpai.wav" controls preload></audio>
    </div>
    <div class="column-right">
-     <h6>Output</h6>
-     <audio src="audio/class_3_output.wav" controls preload></audio>
+     <h6>CAW reconstruction</h6>
+     <audio src="audio/example0/caw.wav" controls preload></audio>
    </div>
-</div>-->
+   <div class="column-right">
+     <h6>SGA reconstruction</h6>
+     <audio src="audio/example0/sga.wav" controls preload></audio>
+   </div>
+</div>
 
-### Class 2
-
-<!--<div class="container">
+<div class="container">
    <div class="column-left">
-     <h6>Source speaker</h6>
-     <audio src="audio/class_4_source.wav" controls preload></audio>
+     <audio src="audio/example1/audio_original_masked.wav" controls preload></audio>
    </div>
    <div class="column-center">
-     <h6>Target speaker</h6>
-     <audio src="audio/class_4_target.wav" controls preload></audio>
+     <audio src="audio/example1/dpai.wav" controls preload></audio>
    </div>
    <div class="column-right">
-     <h6>Output</h6>
-     <audio src="audio/class_4_output.wav" controls preload></audio>
+     <audio src="audio/example1/caw.wav" controls preload></audio>
    </div>
-</div>-->
+   <div class="column-right">
+     <audio src="audio/example1/sga.wav" controls preload></audio>
+   </div>
+</div>
 
-### Class 3
-
-<!--<div class="container">
+<div class="container">
    <div class="column-left">
-     <h6>Source speaker</h6>
-     <audio src="audio/class_5_source.wav" controls preload></audio>
+     <audio src="audio/example2/audio_original_masked.wav" controls preload></audio>
    </div>
    <div class="column-center">
-     <h6>Target speaker</h6>
-     <audio src="audio/class_5_target.wav" controls preload></audio>
+     <audio src="audio/example2/dpai.wav" controls preload></audio>
    </div>
    <div class="column-right">
-     <h6>Output</h6>
-     <audio src="audio/class_5_output.wav" controls preload></audio>
+     <audio src="audio/example2/caw.wav" controls preload></audio>
    </div>
-</div>-->
+   <div class="column-right">
+     <audio src="audio/example2/sga.wav" controls preload></audio>
+   </div>
+</div>
 
-### Class 4
-
-<!--<div class="container">
+<div class="container">
    <div class="column-left">
-     <h6>Source speaker</h6>
-     <audio src="audio/class_1_source.wav" controls preload></audio>
+     <audio src="audio/example3/audio_original_masked.wav" controls preload></audio>
    </div>
    <div class="column-center">
-     <h6>Target speaker</h6>
-     <audio src="audio/class_1_target.wav" controls preload></audio>
+     <audio src="audio/example3/dpai.wav" controls preload></audio>
    </div>
    <div class="column-right">
-     <h6>Output</h6>
-     <audio src="audio/class_1_output.wav" controls preload></audio>
+     <audio src="audio/example3/caw.wav" controls preload></audio>
    </div>
-</div>-->
+   <div class="column-right">
+     <audio src="audio/example3/sga.wav" controls preload></audio>
+   </div>
+</div>
 
-### Class 5
-
-<!--<div class="container">
+<div class="container">
    <div class="column-left">
-     <h6>Source speaker</h6>
-     <audio src="audio/class_2_source.wav" controls preload></audio>
+     <audio src="audio/example4/audio_original_masked.wav" controls preload></audio>
    </div>
    <div class="column-center">
-     <h6>Target speaker</h6>
-     <audio src="audio/class_2_target.wav" controls preload></audio>
+     <audio src="audio/example4/dpai.wav" controls preload></audio>
    </div>
    <div class="column-right">
-     <h6>Output</h6>
-     <audio src="audio/class_2_output.wav" controls preload></audio>
+     <audio src="audio/example4/caw.wav" controls preload></audio>
    </div>
-</div>-->
+   <div class="column-right">
+     <audio src="audio/example4/sga.wav" controls preload></audio>
+   </div>
+</div>
+
+<div class="container">
+   <div class="column-left">
+     <audio src="audio/example5/audio_original_masked.wav" controls preload></audio>
+   </div>
+   <div class="column-center">
+     <audio src="audio/example5/dpai.wav" controls preload></audio>
+   </div>
+   <div class="column-right">
+     <audio src="audio/example5/caw.wav" controls preload></audio>
+   </div>
+   <div class="column-right">
+     <audio src="audio/example5/sga.wav" controls preload></audio>
+   </div>
+</div>
+
+<div class="container">
+   <div class="column-left">
+     <audio src="audio/example6/audio_original_masked.wav" controls preload></audio>
+   </div>
+   <div class="column-center">
+     <audio src="audio/example6/dpai.wav" controls preload></audio>
+   </div>
+   <div class="column-right">
+     <audio src="audio/example6/caw.wav" controls preload></audio>
+   </div>
+   <div class="column-right">
+     <audio src="audio/example6/sga.wav" controls preload></audio>
+   </div>
+</div>
+
+<div class="container">
+   <div class="column-left">
+     <audio src="audio/example7/audio_original_masked.wav" controls preload></audio>
+   </div>
+   <div class="column-center">
+     <audio src="audio/example7/dpai.wav" controls preload></audio>
+   </div>
+   <div class="column-right">
+     <audio src="audio/example7/caw.wav" controls preload></audio>
+   </div>
+   <div class="column-right">
+     <audio src="audio/example7/sga.wav" controls preload></audio>
+   </div>
+</div>
