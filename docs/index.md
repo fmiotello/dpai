@@ -13,19 +13,19 @@ Our method exploits a time-frequency representation of audio signals and makes u
 
 <div class="container">
    <div class="column-1">
-     <h6>Corrupted audio signal</h6>
+     <h5>Corrupted audio signal</h5>
      <audio src="audio/example0/audio_original_masked.wav" controls preload style="width: 190px;"></audio>
    </div>
    <div class="column-2">
-     <h6>DPAI reconstruction (ours)</h6>
+     <h5>DPAI reconstruction (ours)</h5>
      <audio src="audio/example0/dpai.wav" controls preload style="width: 200px;"></audio>
    </div>
    <div class="column-3">
-     <h6>CAW reconstruction</h6>
+     <h5>CAW reconstruction</h5>
      <audio src="audio/example0/caw.wav" controls preload style="width: 200px;"></audio>
    </div>
    <div class="column-4">
-     <h6>SGA reconstruction</h6>
+     <h5>SGA reconstruction</h5>
      <audio src="audio/example0/sga.wav" controls preload style="width: 200px;"></audio>
    </div>
 </div>
