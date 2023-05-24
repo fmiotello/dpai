@@ -1,0 +1,79 @@
+{
+    "name": "all_conv",
+    "architecture": "mulresunet",
+    "num_channels_down": [128, 128, 128, 128, 128],
+    "num_channels_up": [128, 128, 128, 128, 128],
+    "num_channels_skip": [128, 128, 128, 128],
+    "kernel_size_down": [
+        [3, 3, 3],
+        [3, 3, 3],
+        [3, 3, 3],
+        [3, 3, 3],
+        [3, 3, 3]
+    ],
+    "kernel_size_up": [
+        [3, 3, 3],
+        [3, 3, 3],
+        [3, 3, 3],
+        [3, 3, 3],
+        [3, 3, 3]
+    ],
+    "kernel_size_skip": [3, 3, 3, 3],
+    "kernel_size_downsampling": [3, 3, 3, 3],
+    "conv_type_down": [
+        ["conv", "conv", "conv"],
+        ["conv", "conv", "conv"],
+        ["conv", "conv", "conv"],
+        ["conv", "conv", "conv"],
+        ["conv", "conv", "conv"]
+    ],
+    "conv_type_up": [
+        ["conv", "conv", "conv"],
+        ["conv", "conv", "conv"],
+        ["conv", "conv", "conv"],
+        ["conv", "conv", "conv"],
+        ["conv", "conv", "conv"]
+    ],
+    "conv_type_res": [
+        ["conv", "conv"],
+        ["conv", "conv"],
+        ["conv", "conv"],
+        ["conv", "conv"]
+    ],
+    "conv_type_downsampling": [
+        "conv",
+        "conv",
+        "conv",
+        "conv"
+    ],
+    "conv_type_out": "conv",
+    "anchor_down": [
+        [0, 0, 0],
+        [0, 0, 0],
+        [0, 0, 0],
+        [0, 0, 0],
+        [0, 0, 0]
+    ],
+    "anchor_up": [
+        [0, 0, 0],
+        [0, 0, 0],
+        [0, 0, 0],
+        [0, 0, 0],
+        [0, 0, 0]
+    ],
+    "anchor_res": [
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0]
+    ],
+    "anchor_downsampling": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "anchor_out": 0,
+    "upsample_mode": "nearest",
+    "dropout": 0.0
+}

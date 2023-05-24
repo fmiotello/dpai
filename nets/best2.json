@@ -1,0 +1,79 @@
+{
+    "name": "all_harm",
+    "architecture": "mulresunet",
+    "num_channels_down": [128, 128, 128, 128, 128],
+    "num_channels_up": [128, 128, 128, 128, 128],
+    "num_channels_skip": [128, 128, 128, 128],
+    "kernel_size_down": [
+        [[3,11], [3,11], [3,11]],
+        [[3,11], [3,11], [3,11]],
+        [[3,11], [3,11], [3,11]],
+        [[3,11], [3,11], [3,11]],
+        [[3,11], [3,11], [3,11]]
+    ],
+    "kernel_size_up": [
+        [[3,11], [3,11], [3,11]],
+        [[3,11], [3,11], [3,11]],
+        [[3,11], [3,11], [3,11]],
+        [[3,11], [3,11], [3,11]],
+        [[3,11], [3,11], [3,11]]
+    ],
+    "kernel_size_skip": [[3,11], [3,11], [3,11], [3,11]],
+    "kernel_size_downsampling": [[3,11], [3,11], [3,11], [3,11]],
+    "conv_type_down": [
+        ["hconv", "hconv", "hconv"],
+        ["hconv", "hconv", "hconv"],
+        ["hconv", "hconv", "hconv"],
+        ["hconv", "hconv", "hconv"],
+        ["hconv", "hconv", "hconv"]
+    ],
+    "conv_type_up": [
+        ["conv", "conv", "conv"],
+        ["conv", "conv", "conv"],
+        ["conv", "conv", "conv"],
+        ["conv", "conv", "conv"],
+        ["conv", "conv", "conv"]
+    ],
+    "conv_type_res": [
+        ["hconv", "hconv"],
+        ["hconv", "hconv"],
+        ["hconv", "hconv"],
+        ["hconv", "hconv"]
+    ],
+    "conv_type_downsampling": [
+        "hconv",
+        "hconv",
+        "hconv",
+        "hconv"
+    ],
+    "conv_type_out": "hconv",
+    "anchor_down": [
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3]
+    ],
+    "anchor_up": [
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3]
+    ],
+    "anchor_res": [
+        [2, 1],
+        [2, 1],
+        [2, 1],
+        [2, 1]
+    ],
+    "anchor_downsampling": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "anchor_out": 1,
+    "upsample_mode": "nearest",
+    "dropout": 0.0
+}
